@@ -17,6 +17,8 @@
 
             <input type="password" name="pass1" placeholder="Ingrese su contraseña">
 
+            <button>Iniciar</button>
+
         </form>
     </main>
 
