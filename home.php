@@ -1,3 +1,16 @@
+<?php 
+session_start();
+if(!isset($_SESSION['username'])) {
+    echo "
+    <script>
+        alert('DEBES INICIAR SESIÓN 😏');
+        window.location = './index.php';
+    </script>
+    ";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +19,6 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <a href="./php/close_conn.php">CERRAR SESIÓN</a>
 </body>
 </html>
