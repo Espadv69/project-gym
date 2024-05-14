@@ -41,13 +41,13 @@ if(!isset($_SESSION['username'])) {
     <nav
         class="nav justify-content-center flex-column"
     >
-        <a class="nav-link active" href="./rutina.php" aria-current="page">
-            Active link
-        </a>
+        
+        <a href="./rutina.php">Rutina ☀️</a>
+        <a href="./nutricion.php">Nutrición 🍎</a>
+        <a href="#">Calcular IMC ⚖️</a>
+        <a href="#">Contacto 📱</a>
+        <a href="./php/close_conn.php">Cerrar sesión ❌</a>
 
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Disabled link</a>
-        <a href="./php/close_conn.php">CERRAR SESIÓN</a>
     </nav>
         
 
