@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+if(isset($_SESSION['username'])) {
+    header("location: ./home.php");
+    exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,9 +23,9 @@
     <main>
         <form action="./php/log_be.php" method="post" class="form-log">
 
-            <input type="email" name="email" placeholder="nombre@ejemplo.com">
+            <input type="email" name="email" placeholder="nombre@ejemplo.com" required>
 
-            <input type="password" name="pass1" placeholder="Ingrese su contraseña">
+            <input type="password" name="pass1" placeholder="Ingrese su contraseña" required>
 
             <button>Iniciar</button>
 
