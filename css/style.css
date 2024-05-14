@@ -6,6 +6,20 @@
 }
 /***********/
 
+/*FONTS FAMILY*/
+@font-face {
+    font-family: 'Briem Hand';
+    src: url(../fonts/BriemHand-Black.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SedanSC';
+    src: url(../fonts/SedanSC-Regular.ttf);
+    font-style: normal;
+}
+/**************/
+
 /*BODY LOGIN & REGISTER*/
 .body-reg-log {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -21,7 +35,33 @@ main {
     margin: 0 auto;
     margin-top: 20px;
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
+}
+
+h1 {
+    padding: .5rem;
+    font-size: 36px;
+    font-family: 'SedanSC', sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(245, 245, 245, 0.55);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+input::placeholder {
+    font-weight: 600;
+    font-family: "SedanSC", sans-serif;
+    font-style: normal;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Briem Hand';
+    font-size: 26px;
+    margin-top: 10px;
+    text-shadow: -3px 0px 2px rgba(255, 255, 255, 1);
 }
 
 /*FORM REGISTER*/
@@ -45,4 +85,31 @@ main {
     outline: none;
     border: none;
     border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+/***************/
+
+/*FORM LOGIN*/
+.form-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    padding: 3rem;
+    background-color: rgba(245, 245, 245, 0.55);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.form-log input {
+    padding: .8rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+/************/
