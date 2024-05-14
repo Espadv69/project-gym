@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body-reg-log">
+
+    <h1>Register</h1>
     
     <main>
         <form action="./php/reg_be.php" method="post" class="form-reg">
@@ -24,6 +26,6 @@
         </form>
     </main>
 
-    <p>Si ya tienes cuenta <a href="index.php">pinche aquí</a></p>
+    <p>Si ya tienes cuenta <a href="index.php" class="a-log-leg">pinche aquí</a></p>
 </body>
 </html>
