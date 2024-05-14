@@ -20,6 +20,6 @@
         </form>
     </main>
 
-    <p>Si aún no te has registrado <a href="register.php">pinche aquí</a></p>
+    <p>Si aún no te has registrado <a href="register.php" class="a-log-leg">pinche aquí</a></p>
 </body>
 </html>
