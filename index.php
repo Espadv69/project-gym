@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body-reg-log">
+
+    <h1>Login</h1>
+
+    <main>
+        <form action="./php/log_be.php" method="post" class="form-log">
+
+            <input type="email" name="email" placeholder="nombre@ejemplo.com">
+
+            <input type="password" name="pass1" placeholder="Ingrese su contraseña">
+
+        </form>
+    </main>
+
     <p>Si aún no te has registrado <a href="register.php">pinche aquí</a></p>
 </body>
 </html>
