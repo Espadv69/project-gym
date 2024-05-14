@@ -12,13 +12,14 @@ if(!isset($_SESSION['username'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="body-home">
     <a href="./php/close_conn.php">CERRAR SESIÓN</a>
 </body>
 </html>
