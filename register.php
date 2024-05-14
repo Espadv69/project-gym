@@ -23,7 +23,7 @@
 
             <input type="password" name="pass2" placeholder="Repita contraseña...">
 
-            <input type="submit" value="Registrar">
+            <button>Registrar</button>
 
         </form>
     </main>
