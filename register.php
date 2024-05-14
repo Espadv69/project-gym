@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="body-reg-log">
     <main>
 
-    <form action="./php/reg_be.php" method="post" name="form-reg">
+    <form action="./php/reg_be.php" method="post" class="form-reg">
 
         <input type="text" name="name" placeholder="Ingrese su nombre">
 
@@ -23,5 +24,7 @@
     </form>
 
     </main>
+
+    <p>Si ya tienes cuenta <a href="index.php">pinche aquí</a></p>
 </body>
 </html>
