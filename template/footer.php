@@ -17,6 +17,10 @@
 
 <footer>
 
+<div>
+    <h4>Síguenos en nuestras redes sociales.</h4>
+</div>
+
     <a href="https://github.com/"><i class="bi bi-github"></i></a>
     <a href="https://twitter.com/?lang=es"><i class="bi bi-twitter-x"></i></a>
     <a href="https://www.facebook.com/?locale=es_ES"><i class="bi bi-facebook"></i></a>
