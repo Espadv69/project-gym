@@ -8,9 +8,7 @@ if(!isset($_SESSION['username'])) {
     </script>
     ";
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,38 +29,28 @@ if(!isset($_SESSION['username'])) {
     />
 
 </head>
-<body class="body-home">
+<body class="body-home" style="height: 200vh;">
 
     <header>
         <img src="./img/boxer.jpg" alt="boxeadora">
         <h2>GYM BROTHER'S</h2>
     </header>
 
-
-<nav
-    class="navbar navbar-expand-sm navbar-light bg-light"
->
-    <div class="container">
-
-        <a class="a" href="#">Home🏠</a>
-
-        <a class="a" href="./rutina.php">Rutina☀️</a>
-
-        <a class="a" href="./nutricion.php">Nutrición🍎</a>
-
-        <a class="a" href="#">Calcular IMC⚖️</a>
-
-        <a class="a" href="#">Contacto📱</a>
-
-        <a class="a" href="./php/close_conn.php">Cerrar sesión❌</a>
-
-    </div>
-</nav>
+    <?php require_once "./template/navbar.php"?>
 
         <div class="fotos">
 
             <div class="foto1">
-                <img src="" alt="">
+                <img src="./img/class.jpg" alt="">
+                <p class="descripcion">
+                    Descripción
+                    
+                    El doble Máster en Personal Trainer y Coaching Deportivo va dirigido a trabajadores, emprendedores y empresarias interesadas en el sector del deporte y el sector fitness.
+
+                    El personal trainer es un profesional de la actividad física que ha ganado terreno en los últimos años en el ámbito deportivo. La razón de esto es su capacidad para prescribir ejercicios y fijar objetivos acordes a las condiciones físicas de sus clientes. Siempre desde un enfoque y un análisis individualizado.
+
+                    Por ello, el entrenador personal debe tener una formación completa y óptima para trabajar adecuadamente las metas de cada deportista. Sin duda, nuestra titulación es una gran herramienta para prepararte en este sector.
+                </p>
             </div>
 
             <div class="foto2">
@@ -71,7 +59,8 @@ if(!isset($_SESSION['username'])) {
 
         </div>
 
-
+    <?php require_once "./template/footer.php"?>
+    
 </body>
 </html>
 
