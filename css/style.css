@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body {
+    min-height: 150vh;
 }
 /***********/
 
@@ -22,7 +27,6 @@
 
 /*BODY LOGIN & REGISTER*/
 .body-reg-log {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image: url(../img/bg-tree.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,13 +37,7 @@
 
 /*BODY ANOTHER PAGES*/
 .body-home {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: gray;
-    /* background-image: url(../img/bg-test2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; */
+    background-color: rgb(182, 182, 182);
 }
 /********************/
 
@@ -98,7 +96,7 @@ input::placeholder {
 p {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Briem Hand';
+    font-family: 'Briem Hand', sans-serif;
     font-size: 26px;
     margin-top: 10px;
     text-shadow: -3px 0px 2px rgba(255, 255, 255, 1);
@@ -179,7 +177,7 @@ p {
 }
 
 nav .a {
-    font-family: 'SedanSC';
+    font-family: 'SedanSC', sans-serif;
     font-weight: 600;
     color: black;
     text-decoration: none;
@@ -195,29 +193,47 @@ nav .a:hover {
 
 /*FOOTER*/
 footer {
-    position:fixed;
+    position: relative;
     bottom: 0;
     margin: auto;
     padding: .4rem;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    background: rgb(91,91,91);
-    background: radial-gradient(circle, rgba(91,91,91,0.8038793103448276) 48%, rgba(255,255,255,1) 100%);
+    background-color: rgba(0, 0, 0, 0.8);
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
+footer div {
+    position: absolute;
+    top: 0;
+}
+
+footer div h4 {
+    font-family: 'SedanSC', sans-serif;
+    font-weight: 600;
+    color: rgb(147, 147, 147);
+    text-shadow: -3px 0px 1px rgba(255, 255, 255, 1);
+}
+
 footer a {
+    margin-top: 30px;
+    padding: .2rem;
     text-decoration: none;
-    color: black;
-    font-size: 20px;
-    transition: all 200ms linear;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transition: all 200ms ease;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 footer a:hover {
-    font-weight: 600;
     color: whitesmoke;
-    scale: 1.2;
+    background-color: black;
+    filter: brightness(1.7);
+    border: 2px solid whitesmoke;
 }
 /********/
 
@@ -249,7 +265,7 @@ header h2 {
     transform: translate(-50%, 10px);
     margin: auto;
     font-size: 26px;
-    font-family: 'SedanSC';
+    font-family: 'SedanSC', sans-serif;
     color: rgba(245, 245, 245);
     text-shadow: 2px 1px 4px rgb(255, 255, 255);
 }
@@ -259,14 +275,17 @@ header h2 {
 .fotos {
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     max-width: 900px;
-    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: rgba(245, 245, 245, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.foto1 {
+.foto1, .foto2 {
     width: 350px;
     min-width: 200px;
 }
@@ -275,16 +294,21 @@ header h2 {
     margin: auto;
     margin-top: 10px;
     width: 100%;
+    max-width: 350px;
 }
 
-.foto1 p {
+.foto2 img {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 100%;
+    max-width:300px;
+}
+
+.foto1 p, .foto2 p {
     font-size: 12px;
     margin-top: 10px;
-}
-
-.foto2 {
-    width: 400px;
-    min-width: 200px;
+    text-shadow: none;
 }
 /************/
 
