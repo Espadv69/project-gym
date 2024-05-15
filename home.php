@@ -38,20 +38,44 @@ if(!isset($_SESSION['username'])) {
         <h2>GYM BROTHER'S</h2>
     </header>
 
-    <nav
-        class="nav justify-content-center flex-column"
-    >
-        
-        <a href="./rutina.php">Rutina ☀️</a>
-        <a href="./nutricion.php">Nutrición 🍎</a>
-        <a href="#">Calcular IMC ⚖️</a>
-        <a href="#">Contacto 📱</a>
-        <a href="./php/close_conn.php">Cerrar sesión ❌</a>
 
-    </nav>
-        
+<nav
+    class="navbar navbar-expand-sm navbar-light bg-light"
+>
+    <div class="container">
 
+        <a class="a" href="#">Home🏠</a>
+
+        <a class="a" href="./rutina.php">Rutina☀️</a>
+
+        <a class="a" href="./nutricion.php">Nutrición🍎</a>
+
+        <a class="a" href="#">Calcular IMC⚖️</a>
+
+        <a class="a" href="#">Contacto📱</a>
+
+        <a class="a" href="./php/close_conn.php">Cerrar sesión❌</a>
+
+    </div>
+</nav>
+
+        <div class="fotos">
+
+            <div class="foto1">
+                <img src="" alt="">
+            </div>
+
+            <div class="foto2">
+                <img src="" alt="">
+            </div>
+
+        </div>
 
 
 </body>
 </html>
+
+
+
+
+        
