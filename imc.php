@@ -22,7 +22,21 @@ if(!isset($_SESSION['username'])) {
     >
 
 </head>
-    <body>
+    <body class="body body-imc">
+        <?php require_once "./template/navbar.php"?>
 
+        <section class="secc-imc">
+
+            <input type="number" name="altura" placeholder="Ponga su altura" required>
+            <input type="number" name="peso" placeholder="Ponga su peso" required>
+            <input type="text" name="total" placeholder="total" readonly required>
+            
+            <input type="button" value="Calcular" class="boton">
+
+        </section>
+
+        <?php require_once "./template/footer.php"?>
+
+        <script src="./js/main.js"></script>
     </body>
 </html>
