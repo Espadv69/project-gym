@@ -42,8 +42,6 @@ if(!isset($_SESSION['username'])) {
                 <p>¿Cómo empezar mi mañana? <br><br> Si nunca has hecho cardio o hace mucho tiempo que no lo haces, inicia con una caminata de 5 minutos por la mañana y 5 minutos por la tarde o por la noche. Después puedes ir agregando tiempo de manera gradual o acelerar el ritmo. Verás que en cuestión de días o semanas estarás caminando al menos 30 minutos cada día. <br><br>
                 Calentamiento: Haz ejercicios de intensidad baja durante 5 a 10 minutos para activar tu sistema cardiovascular y aumentar el flujo sanguíneo a tus músculos. Acondicionamiento: A tu ritmo inicia con 10-20 min. (sugerido por nosotros) de tal manera que gradualmente llegues a los 30 minutos al día.
                 </p>
-
-
                
         </section>
         <?php require_once "./template/footer.php"?>
