@@ -43,6 +43,11 @@
 .body-nutricion {
     background-color: rgb(30, 30, 30);
 }
+
+.body-imc {
+    background: rgb(202,254,255);
+    background: radial-gradient(circle, rgba(202,254,255,1) 0%, rgba(59,182,255,1) 100%);
+}
 /********************/
 
 /*GENERAL*/
@@ -389,3 +394,46 @@ header h2 {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 /***********/
+
+/*CALCULAR IMC*/
+.secc-imc {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.secc-imc input {
+    padding: 1rem;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.secc-imc input[type="button"] {
+    background: transparent;
+    font-weight: 600;
+    font-family: 'SedanSC', sans-serif;
+
+    border: 2px solid rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+    transition: all 200ms linear;
+}
+
+.secc-imc input[type="button"]:hover {
+    filter: brightness(1.2);
+    background-color: rgb(161, 210, 255);
+    color: black;
+    border: 2px solid black;
+    text-shadow: -1px 1px 3px rgb(255, 255, 255);
+}
+/**************/
