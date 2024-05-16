@@ -25,7 +25,7 @@ if(!isset($_SESSION['username'])) {
     <body class="body">
         <?php require_once "./template/navbar.php"?>
 
-        <section class="secc-img">
+        <section class="secc-rutine">
 
                 <img src="./img/rutine1.jpg" alt="Tabla de rutina">               
                 <img src="./img/rutine2.jpg" alt="Taza de café sobre un libro">               
