@@ -323,7 +323,7 @@ header h2 {
 /******/
 
 /*RUTINA*/
-.secc-img {
+.secc-rutine {
     padding: .5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -332,7 +332,7 @@ header h2 {
     min-height: 100vh;
 }
 
-.secc-img p {
+.secc-rutine p {
     font-size: 14px;
     font-family: monospace, sans-serif;
     font-weight: 600;
@@ -342,8 +342,20 @@ header h2 {
     overflow-y: scroll;
 }
 
-.secc-img img {
+.secc-rutine img {
     width: 100%;
     height: auto;
+    border-radius: .3rem;
 }
 /********/
+
+/*NUTRICIÓN*/
+.secc-nutricion {
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: rgb(30, 30, 30);
+    min-height: 100vh;
+}
+/***********/
