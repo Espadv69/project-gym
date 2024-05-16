@@ -27,9 +27,11 @@ if(!isset($_SESSION['username'])) {
 
         <section class="secc-imc">
 
-            <input type="number" name="altura" placeholder="Ponga su altura" required>
-            <input type="number" name="peso" placeholder="Ponga su peso" required>
-            <input type="text" name="total" placeholder="total" readonly required>
+            <img src="./img/tabla.webp" alt="Tabla IMC">
+
+            <input type="number" class="altura" placeholder="Ponga su altura" value="" required>
+            <input type="number" class="peso" placeholder="Ponga su peso" value="" required>
+            <input type="text" class="total" placeholder="total" value="" readonly required>
             
             <input type="button" value="Calcular" class="boton">
 
