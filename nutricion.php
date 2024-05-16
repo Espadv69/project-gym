@@ -23,6 +23,20 @@ if(!isset($_SESSION['username'])) {
 
     </head>
     <body>
+        <?php require_once "./template/navbar.php"?>
 
+        <section class="secc-nutricion">
+
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+
+            <p></p>
+            <p></p>
+            <p></p>
+            
+        </section>
+
+        <?php require_once "./template/footer.php"?>
     </body>
 </html>
