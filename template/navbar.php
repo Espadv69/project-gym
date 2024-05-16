@@ -15,15 +15,15 @@
 >
     <div class="container">
 
-        <a class="a" href="#">Home🏠</a>
+        <a class="a" href="./home.php">Home🏠</a>
 
         <a class="a" href="./rutina.php">Rutina☀️</a>
 
         <a class="a" href="./nutricion.php">Nutrición🍎</a>
 
-        <a class="a" href="#">Calcular IMC⚖️</a>
+        <a class="a" href="./imc.php">Calcular IMC⚖️</a>
 
-        <a class="a" href="#">Contacto📱</a>
+        <a class="a" href="./contacto.php">Contacto📱</a>
 
         <a class="a" href="./php/close_conn.php">Cerrar sesión❌</a>
 
