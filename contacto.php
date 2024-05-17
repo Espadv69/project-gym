@@ -22,7 +22,8 @@ if(!isset($_SESSION['username'])) {
     >
 
 </head>
-    <body>
+    <body class="body body-contacto">
+        <?php require_once "./template/navbar.php"?>
         
 
         <form action="./php/contacto_be.php" method="post" class="form-contacto">
@@ -30,10 +31,13 @@ if(!isset($_SESSION['username'])) {
             <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
             <input type="text" name="apellidos" placeholder="Ingrese sus apellidos" required>
             <input type="email" name="email" placeholder="Ingrese su email" required>
-            <input type="number" name="telefono" placeholder="Ingrese su número de teléfono" required>
+            <input type="number" class="telefono" name="telefono" placeholder="Ingrese su número de teléfono" required>
+            <textarea name="comentario" placeholder="Ingrese un comentario. (OPCIONAL)" rows="5"></textarea>
             <input type="submit" value="Enviar">
 
         </form>
 
+
+        <?php require_once "./template/footer.php"?>
     </body>
 </html>
