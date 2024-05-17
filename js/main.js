@@ -5,11 +5,11 @@ button.addEventListener('click', () => {
     let alturaV = altura.value;
 
     if(alturaV > 3) {
-        alert('Imposible 😂');
+        document.querySelector('#imcP').innerHTML = 'Imposible 😂';
         return false;
 
     } else if(alturaV < 0) {
-        alert('No puede ser negativo 😂');
+        document.querySelector('#imcP').innerHTML = 'No puede ser negativo 😂';
         return false;
 
     }
@@ -18,11 +18,11 @@ button.addEventListener('click', () => {
     let pesoV = peso.value;
 
     if(pesoV > 300) {
-        alert('Imposible 😂');
+        document.querySelector('#imcP').innerHTML = 'Imposible 😂';
         return false;
 
     } else if(pesoV < 0) {
-        alert('No puede ser negativo 😂');
+        document.querySelector('#imcP').innerHTML = 'No puede ser negativo 😂';
         return false;
 
     }
@@ -32,6 +32,22 @@ button.addEventListener('click', () => {
     if(!isNaN(calculo)) {
         let total = document.querySelector('.total');
         total.value = calculo.toFixed(2);
+
+        if(calculo <= 16.5) {
+            document.querySelector('#imcP').innerHTML = `Bajo peso severo 🦴`;
+        } else if (calculo <= 18.5) {
+            document.querySelector('#imcP').innerHTML = `Bajo peso ❗`;
+        } else if(calculo <= 25) {
+            document.querySelector('#imcP').innerHTML = `Peso normal ✔️`;
+        } else if(calculo <= 30) {
+            document.querySelector('#imcP').innerHTML = `Sobrepeso 🍔`;
+        } else if(calculo <= 35) {
+            document.querySelector('#imcP').innerHTML = `Obesidad tipo 1 (moderada) 🍕`;
+        } else if(calculo <= 40) {
+            document.querySelector('#imcP').innerHTML = `Obesidad tipo 2 (severa) 🍫`;
+        } else {
+            document.querySelector('#imcP').innerHTML = `Obesidad tipo 3 (mórbida) ☠️❗`;
+        }
 
     } else {
         alert('Tienes que rellenar los datos 😉');
