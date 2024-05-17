@@ -31,7 +31,7 @@ button.addEventListener('click', () => {
 
     if(!isNaN(calculo)) {
         let total = document.querySelector('.total');
-        total.value = calculo.toFixed(2);
+        total.value = `${calculo.toFixed(2)} Kg/m2`;
 
         if(calculo <= 16.5) {
             document.querySelector('#imcP').innerHTML = `Bajo peso severo 🦴`;
@@ -53,3 +53,4 @@ button.addEventListener('click', () => {
         alert('Tienes que rellenar los datos 😉');
     }
 })
+//;
