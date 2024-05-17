@@ -24,5 +24,16 @@ if(!isset($_SESSION['username'])) {
 </head>
     <body>
         
+
+        <form action="./php/contacto_be.php" method="post" class="form-contacto">
+
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+            <input type="text" name="apellidos" placeholder="Ingrese sus apellidos" required>
+            <input type="email" name="email" placeholder="Ingrese su email" required>
+            <input type="number" name="telefono" placeholder="Ingrese su número de teléfono" required>
+            <input type="submit" value="Enviar">
+
+        </form>
+
     </body>
 </html>
