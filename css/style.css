@@ -449,6 +449,12 @@ header h2 {
     border: 2px solid black;
     text-shadow: -1px 1px 3px rgb(255, 255, 255);
 }
+
+#imcP {
+    font-size: 16px;
+    text-shadow: none;
+    text-decoration: underline;
+}
 /**************/
 
 /*CONTACTO*/
