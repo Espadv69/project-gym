@@ -27,7 +27,7 @@ if(!isset($_SESSION['username'])) {
 
         <section class="secc-nutricion">
 
-            <img src="./img/nutricion2.jpg" alt="">
+            <img src="./img/nutricion2.jpg" alt="Tarro de frutas">
 
             <!-- parrafo foto2 👇-->
 
@@ -35,7 +35,7 @@ if(!isset($_SESSION['username'])) {
             Los frutos secos son considerados como un “extra” dentro de la dieta. Pero, en la actualidad, han ganado protagonismo como recurso para aperitivos o “matar” el hambre. En esos casos, entran a formar parte de cierto desorden dentro de la dieta que puede tener sus consecuencias en la salud. Esas consecuencias se deben, sobre todo, al hábito incorrecto que supone más que a las características de los alimentos
             </p>
 
-            <img src="./img/nutricion3.jpg" alt="">
+            <img src="./img/nutricion3.jpg" alt="Galletas coockie">
 
             <!--- parrafo foto1 👇-->
 
@@ -44,7 +44,7 @@ if(!isset($_SESSION['username'])) {
             Proporcionan un importante aporte vitamínico (vitaminas A, C, B1, B2, B6, ácido fólico) y mineral (potasio, hierro, calcio, magnesio, sílice, zinc, sulfatos, fosfatos, cloruros). Aportan fibra, principalmente celulosa y pectinas.
             </p>
 
-            <img src="./img/nutricion1.jpg" alt="">
+            <img src="./img/nutricion1.jpg" alt="Frutos secos">
 
             <!--- parrafo foto3 👇-->
 
