@@ -32,5 +32,6 @@ if(isset($_SESSION['username'])) {
     </main>
 
     <p>Si aún no te has registrado <a href="register.php" class="a-log-leg">pinche aquí</a></p>
+
 </body>
 </html>
