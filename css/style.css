@@ -450,6 +450,10 @@ header h2 {
     text-shadow: -1px 1px 3px rgb(255, 255, 255);
 }
 
+.secc-imc .total::placeholder {
+    text-align: end;
+}
+
 #imcP {
     font-size: 16px;
     text-shadow: none;
