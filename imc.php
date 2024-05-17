@@ -35,6 +35,8 @@ if(!isset($_SESSION['username'])) {
             
             <input type="button" value="Calcular" class="boton">
 
+            <p id="imcP"></p>
+
         </section>
 
         <?php require_once "./template/footer.php"?>
