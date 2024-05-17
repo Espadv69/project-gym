@@ -31,7 +31,7 @@ if(!isset($_SESSION['username'])) {
 
             <input type="number" class="altura" placeholder="Ponga su altura" value="" required>
             <input type="number" class="peso" placeholder="Ponga su peso" value="" required>
-            <input type="text" class="total" placeholder="total" value="" readonly required>
+            <input type="text" class="total" placeholder="Kg/m2" value="" readonly required>
             
             <input type="button" value="Calcular" class="boton">
 
