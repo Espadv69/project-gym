@@ -479,8 +479,8 @@ header h2 {
 }
 
 .form-contacto input:focus, .form-contacto textarea:focus {
-    background: rgb(34,195,191);
-    background: linear-gradient(0deg, rgba(34,195,191,0.6961206896551724) 0%, rgba(45,73,253,0.7004310344827587) 100%);
+    background: rgb(234,255,253);
+    background: linear-gradient(17deg, rgba(234,255,253,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 .form-contacto input[type="submit"] {
